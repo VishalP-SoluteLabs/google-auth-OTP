@@ -1,0 +1,83 @@
+.login-container {
+    display: flex;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.bg-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-overlay-login {
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+    color: rgb(17, 21, 137);
+    padding: 10px;
+    font-family: 'ABeeZee', sans-serif;
+    border-radius: 5px;
+}
+
+.login-form-container {
+    width: 450px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.login-title {
+    font-size: xx-large;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 17px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    width: 400px;
+}
+
+.login-button {
+    padding: 10px;
+    width: 420px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.google-login-button{
+    width: 200px;
+    background-color: #b30000ac;
+    margin-left: 0px;
+}
+
+.google-login-button:hover{
+    background-color: #6c1212;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abhaya+Libre:wght@700&display=swap');
+
+.signup-container{
+    display: flex;
+    height: 600px;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .bg-image {
+    max-width: 100%;
+    height: 30vh;
+  }
+  
+  .image-overlay-signup {
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+    color: rgb(17, 21, 137);
+    padding: 10px;
+    font-family: 'ABeeZee', sans-serif;
+    border-radius: 5px;
+  }
+  
+
+
+.signup-form-container {
+    width: 450px;
+    margin: 100px auto;
+    padding: 20px;
+  }
+
+
+  .register-title{
+    font-size: xx-large ;
+    /* font-weight: inherit; */
+    font-size: 24px;
+    text-align: left;
+    font-family: 'ABeeZee', sans-serif;
+    /* font-family: 'Abhaya Libre', sans-serif; */
+  }
+
+
+  .register-desc{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-weight: lighter;
+    color: #7e8a9e;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    /* font-weight: 400; */
+    font-size: 17px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    width: 400px;
+  }
+  button {
+    padding: 10px;
+    width: 420px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

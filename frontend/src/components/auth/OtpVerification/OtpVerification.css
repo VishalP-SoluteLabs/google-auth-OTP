@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abhaya+Libre:wght@700&display=swap');
+
+
+.otp-container{
+    display: flex;
+    /* height: 660px; */
+}
+
+.bg-image {
+    width: 750px;
+}
+
+.otp-title{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-overlay-otp {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+    color: rgb(17, 21, 137);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.otp-verification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    width: 770px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .otp-input {
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30px;
+  }
+
+  .otp-input-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .otpButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 450px;
+    cursor: pointer;
+  }
+  
+  .otpButton:hover {
+    background-color: #0056b3;
+  }
+  

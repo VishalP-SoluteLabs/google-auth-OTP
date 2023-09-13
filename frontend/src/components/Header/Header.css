@@ -1,0 +1,52 @@
+
+.bacancy-logo{
+  width: 60%;
+  /* left: 10% */
+  margin-left: 10px;
+  margin-right: 0;
+  padding: 6px;
+}
+
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  /* padding: 1rem; */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation links styles */
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Authentication links styles */
+.auth-links {
+  display: flex;
+  gap: 1rem;
+  margin-right: 66px;
+}
+
+.auth-link {
+  color: #fff;
+  text-decoration: none;
+}
